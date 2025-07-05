@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Profile</title>
+    <link rel="stylesheet" href="css/profile.css">
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+        <div class="nav-links">
+            <button id="logout-btn">Logout</button>
+        </div>
+    </nav>
+</header>
+
+<main class="profile-container">
+    <div id="flash-messages" class="flash-messages"></div>
+
+    <div class="profile-header">
+        <img id="profile-photo" class="profile-photo" alt="Profile Photo" />
+    </div>
+
+    <div class="publications" id="publications"></div>
+</main>
+
+<script src="js/profile.js"></script>
+<div id="toast" class="toast hidden">Logout sucess.</div>
+</body>
+</html>

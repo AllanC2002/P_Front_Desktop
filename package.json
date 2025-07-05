@@ -1,0 +1,23 @@
+{
+  "name": "my-social-app",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^29.4.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AllanC2002/P_Front_Desktop.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AllanC2002/P_Front_Desktop/issues"
+  },
+  "homepage": "https://github.com/AllanC2002/P_Front_Desktop#readme",
+  "description": ""
+}
